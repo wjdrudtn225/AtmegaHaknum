@@ -10,7 +10,7 @@ int i =0;
    int control[3]={0x03,0x05,0x06};
    DDRE=0xFF;//포트 E번 출력 설정
    DDRB=0xFF;//포트 B번 출력 설정
-    /* Replace with your application code */
+    // Replace with your application code 
    PORTB=0x00;//E 포트 초기화
    PORTE=0x00;//B 포트 초기화
    while(1){
